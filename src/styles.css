@@ -1,0 +1,101 @@
+body {
+    background-color: azure;
+    padding-top: 1rem;
+    display: flex;
+
+}
+
+.navbar {
+    background-color: rgba(27, 27, 155, 0.952);
+    display: flex;
+    border: 1px solid black;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    padding: .5rem;
+    filter: drop-shadow(1px 1px 1px rgb(59, 59, 59));
+}
+
+.navlink {
+    margin-right: 2rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
+    text-decoration-line: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    margin-bottom: 1rem;
+}
+
+.navlink.active {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+
+}
+
+.navlink.hover {
+    color: white;
+    font-weight: bolder;
+}
+
+.posts:hover {
+    background-color: grey;
+}
+
+.posts {
+
+    padding: .5rem;
+    margin-bottom: .5rem;
+    margin: .5rem;
+    cursor: pointer;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.posts p {
+    padding: .5rem;
+    margin: .1rem 0;
+
+}
+
+article.FeaturedPost {
+    position: fixed;
+    background-color: white;
+    border: 1px solid black;
+    padding: 1rem;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(5px 5px 10px #000);
+    border-radius: 10px;
+}
+
+.newpostform {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+
+}
+
+.submitnewpost {
+    width: 50px
+}
